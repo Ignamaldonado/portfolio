@@ -49,7 +49,7 @@ const Project = (props: ProjectProps) => {
             target="_blank" 
             rel="noopener noreferrer"  
             className={theme === 'dark' ? 'dark' : ''}
-            ><FontAwesomeIcon icon={faGithub} /></a></motion.button>
+            ><FontAwesomeIcon icon={faGithub} size="xl" /></a></motion.button>
             {props.image === portfolio ? null : <motion.button
             whileHover={{scale: 1.3}}
             ><a 
@@ -57,7 +57,7 @@ const Project = (props: ProjectProps) => {
             className={theme === 'dark' ? 'dark' : ''}
             target="_blank" 
             rel="noopener noreferrer" 
-            ><FontAwesomeIcon icon={faFile} /></a></motion.button> }
+            ><FontAwesomeIcon icon={faFile} size='xl' /></a></motion.button> }
         </div>
     </motion.div>
   )
