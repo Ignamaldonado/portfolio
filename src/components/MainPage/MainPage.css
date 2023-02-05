@@ -30,7 +30,7 @@
 
 .main-buttons-container {
     display: flex;
-    width: 450px;
+    width: 400px;
     margin: 0 auto;
 }
 
@@ -71,4 +71,16 @@
     .main-button {
         margin: 0 18px;
     }
+}
+
+@media (max-width: 400px) {
+    .main-buttons-container {
+        width: 350px;
+    }
+
+   
+        .main-button {
+            margin: 0 9px;
+        }
+    
 }

@@ -122,3 +122,9 @@
         width: 100%;
     }
 }
+
+@media (max-width: 400px) {
+    .about-page-container {
+        height: 1500px;
+    }
+}
