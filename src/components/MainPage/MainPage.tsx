@@ -23,7 +23,7 @@ const MainPage = () => {
         <h1>{language === 'en' ? t.en.mainJob : t.es.mainJob}</h1>
         <br/>
             <ButtonLinks />
-        <br/><br/><br/>
+        <br/><br/><br/><br/>
         <h3>{language === 'en' ? t.en.mainPresentation1 : t.es.mainPresentation1}</h3>
         <h3>{language === 'en' ? t.en.mainPresentation2 : t.es.mainPresentation2}</h3>
         <h6>{language === 'en' ? t.en.mainPresentation3 : t.es.mainPresentation3}</h6>
