@@ -29,7 +29,7 @@ const MainPage = () => {
         <h6>{language === 'en' ? t.en.mainPresentation3 : t.es.mainPresentation3}</h6>
         <br/><br/><br/><br/>
         <h3>{language === 'en' ? t.en.mainScrollDown : t.es.mainScrollDown}</h3>
-        <br/><br/><br/><br/><br/><br/>
+        <br/>
       </div>
       <div className='main-arrow-container'>
             <DownArrow />
