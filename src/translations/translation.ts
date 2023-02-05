@@ -40,7 +40,7 @@ const translation = {
         cryptoquote: 'App to quote crypto in many currencies',
         aboutmetitle: 'About me!',
         techstitle: 'Techs i use',
-        aboutmetext1: "Hi! as you may now know my name is Ignacio, i have 26 years old and i'm both a fullstack web developer and a systems engineer student",
+        aboutmetext1: "Hi! as you may now know my name is Ignacio, i'm 26 years old and i'm both a fullstack web developer and a systems engineer student",
         aboutmetext2: "People say that i'm charismatic and i try to leave that impression to everyone around me, i treat people like i want them to treat me",
         aboutmetext3: "I speak both spanish and english at a C2 level (but to be honest my speaking is at most C1 level)",
         contacttitle: 'Contact me!',
