@@ -97,7 +97,7 @@
 @media (max-width: 1300px) {
 
     .about-page-container {
-        height: 1100px;
+        height: 900px;
     }
 
     .about-flex {
@@ -121,10 +121,19 @@
     .techs-use {
         width: 100%;
     }
+
+    .tech-card{
+        margin: 10px auto 10px auto;    
+    }
 }
 
 @media (max-width: 400px) {
     .about-page-container {
-        height: 1500px;
+        height: 900px;
     }
+
+    .tech-card{
+        margin: 10px auto 10px auto;    
+    }
+
 }
