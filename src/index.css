@@ -1,0 +1,24 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 1300px) {
+  .main-arrow-container {
+    display: none !important;
+  }
+}

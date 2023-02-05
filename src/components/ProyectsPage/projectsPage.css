@@ -1,0 +1,32 @@
+.projects-page-container {
+        width: 100%;
+        height: calc(100vh - 45px);
+        background-color: #F2F2F2;
+        transition: all 0.3s ease-in;
+        color: #262626;
+        text-align: center;
+}
+
+    
+.projects-page-container.dark {
+    background-color: #595959;
+    color: #f2f2f2;
+}
+
+.projects-container {
+    margin: 20px auto 0 auto;
+    display: flex;
+    height: 420px;
+    margin-bottom: 5px;
+    max-width: 1366px;
+}
+
+@media (max-width: 1300px) {
+    .projects-page-container {
+        height: 1600px;
+    }
+    .projects-container {
+        flex-wrap: wrap;
+       
+    }
+}
